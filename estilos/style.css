@@ -70,3 +70,42 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 1em;
 }
+div > div.campo {
+    margin: auto;
+    width: max-content;
+}
+div > input[type=submit] {
+    font-size: 1em;
+    width: 20%;
+    height: 30px;
+    background-color: cornflowerblue;
+    color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+div > input[type=reset] {
+    font-size: 1em;
+    width: 20%;
+    height: 30px;
+    background-color: cornflowerblue;
+    color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+div > input[type=submit]:hover {
+    background-color: rgb(54, 82, 133)
+}
+div > input[type=reset]:hover {
+    background-color: rgb(54, 82, 133)
+}
+
